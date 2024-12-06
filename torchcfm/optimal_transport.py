@@ -64,6 +64,7 @@ class OTPlanSampler:
         """Compute the OT plan (wrt squared Euclidean cost) between a source and a target
         minibatch.
 
+
         Parameters
         ----------
         x0 : Tensor, shape (bs, *dim)
