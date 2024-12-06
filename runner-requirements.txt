@@ -38,14 +38,14 @@ pytest            # tests
 # --------- pkg reqs -------- #
 lightning-bolts
 matplotlib
-numpy
+numpy<2.0.0 # Due to pandas incompatibility
 scipy
 scikit-learn
 scprep
 scanpy
 timm
 torchdyn>=1.0.5   # 1.0.4 is broken on pypi
-pot
+pot<0.9.5
 
 # --------- notebook reqs -------- #
 seaborn>=0.12.2
